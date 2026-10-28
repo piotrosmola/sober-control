@@ -1,0 +1,14 @@
+.DS_Store
+DerivedData/
+build/
+*.xcresult
+*.xcarchive
+*.ipa
+xcuserdata/
+*.xcuserstate
+.env*
+*.p8
+*.p12
+*.mobileprovision
+journal.json
+Local.xcconfig
