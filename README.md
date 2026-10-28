@@ -45,7 +45,7 @@ Argumenty `--ui-testing` i `--reset-journal` działają tylko w konfiguracji Deb
 
 ## Git, GitHub i dystrybucja
 
-Repozytorium Git jest lokalne, z gałęzią `main`. Nie dodano zdalnego repozytorium ani nie wysłano kodu.
-Zgodnie z decyzją użytkownika z 28 października 2026 dalsze działania pozostają lokalne.
+Projekt jest połączony przez `origin` z publicznym repozytorium [piotrosmola/sober-control](https://github.com/piotrosmola/sober-control), z gałęzią `main`.
+Kolejne zmiany rozwijamy na gałęziach i przeglądamy w PR do `main`. Xcode Cloud i TestFlight nie zostały jeszcze aktywowane.
 Przygotowano schemat do build/test/archive, polecenie weryfikacji i szablon PR. Plan aktywacji GitHub → Xcode Cloud → TestFlight znajduje się w [docs/DELIVERY.md](docs/DELIVERY.md).
 Zobacz też [wynik weryfikacji](docs/VERIFICATION.md).

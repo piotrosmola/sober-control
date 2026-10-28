@@ -26,6 +26,6 @@ Xcode wypisał ostrzeżenie o pominięciu ekstrakcji metadanych AppIntents (apli
 
 ## Granice sprawdzenia
 
-Nie wykonano podpisanej dystrybucji, testu na fizycznym iPhonie ani testów na iOS 17–26. Brak tu aktywnego Xcode Cloud, TestFlight i repozytorium GitHub: użytkownik wybrał pozostanie przy projekcie lokalnym. Archiwum bez podpisu potwierdza kompilację Release; nie jest pakietem gotowym do instalacji na iPhonie ani do wysłania do TestFlight.
+Nie wykonano podpisanej dystrybucji, testu na fizycznym iPhonie ani testów na iOS 17–26. Xcode Cloud i TestFlight pozostają nieaktywne. Po zakończeniu testów użytkownik zatwierdził podłączenie projektu do publicznego repozytorium `piotrosmola/sober-control`; ta zmiana dotyczy konfiguracji Git i dokumentacji, bez zmian w kodzie aplikacji. Archiwum bez podpisu potwierdza kompilację Release; nie jest pakietem gotowym do instalacji na iPhonie ani do wysłania do TestFlight.
 
 Pełne logi kompilacji i wyniki `.xcresult` zachowano w roboczym katalogu tej rozmowy; nie są częścią repozytorium.

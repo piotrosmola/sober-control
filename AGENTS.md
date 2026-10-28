@@ -7,4 +7,4 @@
 - Dane użytkownika pozostają w kontenerze aplikacji. Nigdy nie dodawaj dzienników, certyfikatów ani kluczy do Git.
 - Demo używa osobnego magazynu w pamięci. Testy UI muszą używać `--ui-testing`, a reset wyłącznie testowego katalogu.
 - Po istotnej zmianie logiki lub UI uruchom `./scripts/verify.sh`. Ustaw `SOBERCONTROL_DESTINATION`, jeśli wskazany symulator nie jest dostępny.
-- Obecna zgoda obejmuje wyłącznie projekt lokalny. Publikacja kodu, repozytorium zdalne i dystrybucja wymagają nowej decyzji użytkownika.
+- Repozytorium `origin`: https://github.com/piotrosmola/sober-control.git (publiczne). Użytkownik zatwierdził podłączenie repozytorium i wysłanie projektu. Dalsze zmiany rozwijaj na gałęziach i przez PR do `main`; scalanie oraz aktywacja Xcode Cloud i dystrybucji wymagają decyzji użytkownika.

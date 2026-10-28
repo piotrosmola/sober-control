@@ -1,6 +1,6 @@
 # Workflow Codex → PR → build → test na iPhonie
 
-Stan na 28 października 2026: projekt pozostaje lokalny na prośbę użytkownika. Nie ma połączenia `origin`, repozytorium GitHub, PR, aktywnego workflow Xcode Cloud ani buildu TestFlight.
+Stan na 28 października 2026: użytkownik wskazał publiczne repozytorium [piotrosmola/sober-control](https://github.com/piotrosmola/sober-control). Lokalny projekt ma połączenie `origin` z tym repozytorium i gałąź `main`. Nie ma jeszcze PR, aktywnego workflow Xcode Cloud ani buildu TestFlight.
 W Xcode Cloud otworzyło się okno logowania do Apple Account. Zapisane lokalnie ustawienia wskazują wyłącznie Personal Team.
 
 ## Elementy przygotowane
@@ -14,7 +14,7 @@ W Xcode Cloud otworzyło się okno logowania do Apple Account. Zapisane lokalnie
 
 ## Aktywacja po decyzji użytkownika
 
-1. Potwierdzić docelowego właściciela i widoczność repozytorium (proponowane: prywatne `piotrosmola/SoberControl`), utworzyć je na istniejącym koncie i wysłać lokalną historię. Nie dodawać rzeczywistych wpisów dziennika do repo.
+1. Repozytorium docelowe to publiczne `piotrosmola/sober-control`; `origin` wskazuje `https://github.com/piotrosmola/sober-control.git`. Nie dodawać rzeczywistych wpisów dziennika do repo.
 2. Dla każdego zadania Codex tworzy gałąź, wprowadza zmianę, uruchamia `scripts/verify.sh`, zapisuje commit i otwiera PR do `main`. Przejrzeć zmianę przed scaleniem.
 3. Zalogować istniejące Apple Account w **Xcode → Settings → Accounts**. Wymagane jest członkostwo Apple Developer Program i uprawnienia do App Store Connect. Personal Team nie wystarcza do Xcode Cloud i TestFlight.
 4. Wybrać właściwy płatny zespół w **Signing & Capabilities**. Jeśli różni się od obecnego, uaktualnić `DEVELOPMENT_TEAM` dla targetów. Potwierdzić docelowy bundle ID przed jego rejestracją.
